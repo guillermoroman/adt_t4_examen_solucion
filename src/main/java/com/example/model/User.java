@@ -18,6 +18,7 @@ public class User {
     @OneToMany (mappedBy = "author")
     private List<Post> posts = new ArrayList<>();
 
+
     public User() {
     }
 
